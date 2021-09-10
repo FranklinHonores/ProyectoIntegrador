@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <title>Formulario</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"/>
+        <link rel="stylesheet" href="css/master.css">
+        <style type="text/css">
+          input[type="text"], input[type="password"], input[type="email"] {
+            border: none;
+            border-bottom: 1px solid #ccc;
+            background: transparent;
+            border-radius: 0px;
+            padding: 2%;
+            outline: none;
+            height: 25px;
+            color: #000;
+            font-size: 12px;
+          }
+          input {
+            width: 45%;
+            margin-bottom: 25px;
+          }
+          input[type="submit"] {
+            border: none;
+            outline: none;
+            height: 40px;
+            background: #008000;
+            color: #fff;
+            font-size: 18px;
+            border-radius: 20px;
+          }
+
+          textarea{
+            border-color: #ccc;
+            padding: 2%;
+          }
+
+          input[type="submit"]:hover {
+            cursor: pointer;
+            background: #ffc107;
+            color: #000;
+          }
+        </style>
+    </head>
+    <body>
+        
+     <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <img src="img/turism.jpeg" width="200" height="100">
+            </a>
+            <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="pagina.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="gastronomia.html">Gastronomia</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="iglesias.html">Iglesias y Museos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="atractivos.html">Atractivos Naturales y Turísticos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="entretenimiento.html">Entretenimiento</a>
+        </li>
+       <li class="nav-item">
+          <a class="nav-link" href="contacto.html">Contáctanos</a>
+        </li>
+      </ul>
+        </nav>     
+         <div class="cover d-flex justify-content-center align-items-center flex-column ">
+             <h1>
+                 Contáctanos
+             </h1>
+                        
+         </div>
+     </header>
+        <section>
+            <div style="padding-left: 25%" class="container mt-5 mb-5">
+              <h3>Dejanos tus datos y pronto nos comunicaremos contigo.</h3>
+              <br>
+                <form action="db/contacto.php" method="post">
+                    
+                    <input type="text" name="nombres" placeholder="Nombres completos">
+                    <br></br>
+                    
+                    <input type="email" name="email" placeholder="Email">
+                    <br></br>
+                    
+                    <textarea name="mensaje" rows="4" cols="50" placeholder="Dejanos tu mensaje"></textarea>
+                    <br></br>
+                    <input style="width:45%" type="submit" name="register">
+                </form>
+                
+            </div>
+            
+        </section>
+      
+    </body>
+</html>

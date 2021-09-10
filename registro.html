@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Registro</title>
+        <link rel="stylesheet" href="css/estilosRegistro.css" type="text/css"/>
+    </head>
+    <body>
+        <div style="float:right;padding-right: 30%;padding-top: 2%">
+            <a class="btn-salir" href="index.html">Salir</a>
+        </div>
+        <div class="main-block">
+            <form action="db/registrar.php" method="post">
+                <h1 style="text-align:center">Registro de usuarios</h1>
+                <fieldset>
+                    <legend>
+                        <h3>Datos de la cuenta</h3>
+                    </legend>
+                    <div  class="account-details">
+                        <div><label>Email* </label><input type="email" name="email" required></div>
+                        <div><label>Password* </label><input type="password" name="password" required></div>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>
+                      <h3>Datos personales</h3>
+                    </legend>
+                    <div  class="personal-details">
+                        <div>
+                            <div><label>Cédula*</label><input type="number" maxlength="10" name="cedula" required></div>
+                            <div><label>Nombres*</label><input type="text" name="nombres" required></div>
+                            <div><label>Apellidos*</label><input type="text" name="apellidos" required></div>
+                            <div><label>Dirección</label><input type="text" name="direccion"></div>
+                            <div>
+                                <label>Ciudad*</label>  
+                                <select name="ciudad" required>
+                                  <option value=""></option>
+                                  <option value="Quito">Quito</option>
+                                  <option value="Guayaquil">Guayaquil</option>
+                                  <option value="Cuenca">Cuenca</option>
+                                  <option value="Loja">Loja</option>
+                                  <option value="Portoviejo">Portoviejo</option>
+                                  <option value="Manta">Manta</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <label>Género*</label>
+                                <div class="gender">
+                                    <input type="radio" name="hombre"/>
+                                    <label class="radio">Hombre</label>
+                                    <input type="radio" name="mujer"/>
+                                    <label class="radio">Mujer</label>
+                                </div>
+                            </div>
+                            <div>
+                                <label>Estado civil*</label>  
+                                <select name="estado_civil" required>
+                                    <option value=""></option>
+                                    <option value="soltero">Soltero</option>
+                                    <option value="casado">Casado</option>
+                                    <option value="divorsiado">Divorciado</option>
+                                    <option value="viudo">Viudo</option>
+                                </select>
+                            </div>
+                            <div><label>Edad*</label><input type="number" max="90" name="edad"></div>
+                            <div><label>Teléfono*</label><input type="number" maxlength="10" name="telefono"></div>
+                        </div>
+                    </div>
+                </fieldset>
+                <br>
+                <br>
+                <div style="width:35%;float:right">
+                    <input type="submit" value="Guardar">
+                </div>
+                
+                <div style="width:35%;float:right;text-align: left">
+                    <input type="reset" value="Borrar">
+                </div>
+            </form>
+        </div> 
+    </body>
+</html>

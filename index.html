@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Inicio de sesión</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="wrapper fadeInDown">
+  <div id="formContent">
+    <!-- Tabs Titles -->
+    <h2 class="active"> Iniciar sesión </h2>
+    <!--<h2 class="inactive underlineHover">Sign Up </h2>-->
+
+    <!-- Icon -->
+    <div class="fadeIn first">
+      <img style="width:15%" src="img/login1.png" id="icon" alt="User Icon" />
+    </div>
+
+    <!-- Login Form -->
+    
+      <input type="text" id="login" class="fadeIn second" name="login" placeholder="login">
+      <input type="password" id="password" class="fadeIn third" name="password" placeholder="password">
+      <input type="submit" onclick="validarUsuario(login.value, password.value)" class="fadeIn fourth" value="Ingresar">
+    
+
+    <!-- Remind Passowrd -->
+    <div id="formFooter">
+      <!--<a class="underlineHover" href="#">Forgot Password?</a>-->
+    </div>
+
+  </div>
+</div>
+<!-- partial -->
+<script src="js/script_reserva.js"></script>
+<script src="js/script_functions.js"></script>
+</body>
+</html>

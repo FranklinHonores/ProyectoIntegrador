@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cotizador</title>
+    <link rel="stylesheet" href="style_cotizador.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+      integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+  </head>
+  <body>
+    
+    <nav class="navbar blue z-depth-4">
+      <h2>Cotizador</h2>
+    </nav>
+
+    <div class="main">
+      <form id="vacationCalc">
+        <input type="text" placeholder="Origen" id="origen" required />
+        <input type="text" placeholder="Destino" id="destino" required />
+        <input
+          type="number"
+          placeholder="Kilometros por recorrer"
+          id="km"
+          required
+        />
+        <input type="submit" value="Calcular" class="btn blue z-depth-4" />
+      </form>
+    </div>
+
+    <div class="container">
+      <div class="icons">
+        <h5><i class="fas fa-home"></i></h5>
+        <h5><i class="fas fa-flag"></i></h5> 
+        <h5><i class="fas fa-money-bill-wave-alt"></i></h5>  
+      </div>
+      
+      <div class="data">
+        <div class="result" id="result"></div>
+      </div>
+    </div>
+
+
+
+    <script src="js/script_functions.js"></script>
+  </body>
+</html>

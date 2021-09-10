@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0px;
+}
+
+div#barra {
+    margin: auto;
+    width: 700px;
+    height: 80px;
+    background-color: rgb(186, 214, 27);
+}
+
+div#restaurante1 {
+    margin: auto;
+    width: 900px;
+    height: 400px;
+    background-color: brown;
+}
+
+h3 {
+    color: rgb(19, 49, 219);
+}
+
+p1 {
+    color: floralwhite;
+}
+
+p2 {
+    color: floralwhite;
+}
+
+p3 {
+    color: floralwhite;
+}
+
+p4 {
+    color: floralwhite;
+}
+
+p5 {
+    color: floralwhite;
+}
+
+p6 {
+    color: floralwhite;
+}
+
+p7 {
+    color: floralwhite;
+}
+
+p8 {
+    color: floralwhite;
+}
+
+p9 {
+    color: floralwhite;
+}
+
+p10 {
+    color: floralwhite;
+}
+
+p11 {
+    color: floralwhite;
+}
+
+p12 {
+    color: floralwhite;
+}
+
+p13 {
+    color: floralwhite;
+}
+
+p14 {
+    color: floralwhite;
+}
+
+p15 {
+    color: floralwhite;
+}
+
+p16 {
+    color: floralwhite;
+}
+
+p17 {
+    color: floralwhite;
+}
+
+p18 {
+    color: floralwhite;
+}
+
+p19 {
+    color: floralwhite;
+}
+
+p20 {
+    color: floralwhite;
+}
+
+p21 {
+    color: floralwhite;
+}
+
+p22 {
+    color: floralwhite;
+}
+
+p23 {
+    color: floralwhite;
+}
+
+p24 {
+    color: floralwhite;
+}
+
+p25 {
+    color: floralwhite;
+}
+
+div#restaurante2 {
+    margin: auto;
+    width: 700px;
+    height: 400px;
+    background-color: brown;
+}
+
+div#restaurante3 {
+    margin: auto;
+    width: 700px;
+    height: 400px;
+    background-color: brown;
+}
+
+div#restaurante4 {
+    margin: auto;
+    width: 700px;
+    height: 400px;
+    background-color: brown;
+}
+
+div#mercado1 {
+    margin: auto;
+    width: 700px;
+    height: 400px;
+    background-color: brown;
+}
+
+div#mercado2 {
+    margin: auto;
+    width: 700px;
+    height: 400px;
+    background-color: brown;
+}
+
+div#mercado3 {
+    margin: auto;
+    width: 700px;
+    height: 300px;
+    background-color: brown;
+}
